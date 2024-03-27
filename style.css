@@ -179,11 +179,32 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
   /* Styles for the production page */
 
-  
+
+  .label--p{
+    position: relative;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
 
   .body--p input[type=text]{
     display: block;
-    width: 100px;
+    width: 140px;
     padding: 4px;
-    margin: 10px auto;
+    padding-left: 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    -webkit-transition: width .5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+  }
+  .body--p input[type=text]:focus{
+    width: 300px;
+    border: none;
+    outline: 3px solid rgb(2, 2, 109);
+  }
+
+  .fa-magnifying-glass{
+    position: absolute;
+    left: 280px;
+    top: 5px
   }
