@@ -9,7 +9,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .header{
     width: 100%;
     height: auto;
-    padding: 0 20px;
+    padding: 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +18,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .nav{
   display: flex;
   flex-direction: row;
-  gap: 60px;
+  gap: 30px;
 }
  
 .nav .catlog-items, span{
@@ -179,9 +179,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
   /* Styles for the production page */
 
-  .body--p{
-
-  }
+  
 
   .body--p input[type=text]{
     display: block;
