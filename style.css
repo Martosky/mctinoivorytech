@@ -180,13 +180,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
   /* Styles for the production page */
 
 
-  .label--p{
-    position: relative;
-    display: block;
-    width: 50%;
-    margin: 0 auto;
-  }
-
   .body--p input[type=text]{
     display: block;
     width: 140px;
@@ -203,8 +196,4 @@ body {font-family: Arial, Helvetica, sans-serif;}
     outline: 3px solid rgb(2, 2, 109);
   }
 
-  .fa-magnifying-glass{
-    position: absolute;
-    left: 280px;
-    top: 5px
-  }
+ 
