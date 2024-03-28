@@ -10,7 +10,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
     width: 100%;
     background-color: white;
     box-shadow: 2px 4px 1px rgba(104, 102, 102, 0.3);
-    margin-bottom: 20px;
     position: sticky;
     top: 0;
     height: auto;
@@ -77,11 +76,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .slide-body{
     margin: 0;
     padding: 10px;
-    background-image: url(photos/background-for-slides.jpg);
+    background-image: url(photos/slidebg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 100%;
+   
 }
 
 /* Slideshow container */
@@ -100,7 +99,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     display: none;
   }
   .mySlides img {
-    height: 330px;
+    height: 250px;
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -184,9 +183,20 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
   /* Styles for the production page */
   .body--p{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
     background-color: hsl(0, 7%, 92%);
     padding-bottom: 30px;
     
+  }
+  .whatsApp--p{
+    position:fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
   }
   
   .header--input-p{
@@ -208,6 +218,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   .header--input-p input[type=button]{
     padding: 8px;
     background-color: rgb(247, 135, 7);
+    color: white;
     border: none;
   }
 
@@ -225,15 +236,15 @@ body {font-family: Arial, Helvetica, sans-serif;}
  }
 
  .aside--left--p{
-  width: 20%;
+  width: 15%;
   background-color: white;
   padding: 10px;
   border-radius: 4px;
  }
  .main--p{
-  width: 75%;
+  width: 80%;
   background-color: white;
-  padding: 20px;
+  padding: 10px;
   border-radius: 4px;
   display: flex;
   flex-direction: row;
@@ -246,10 +257,44 @@ body {font-family: Arial, Helvetica, sans-serif;}
   max-width: 30%;
   max-height: 300px ;
   border-radius: 5px;
-  box-shadow: 3px 5px 4px 3px rgba(179, 177, 177, 0.3);
+  overflow: hidden;
+  padding: 10px;
+  box-shadow: 0px 0px 4px 3px rgba(179, 177, 177, 0.3);
  }
 
  .elem--p img{
   width: 200px;
   max-height: 220px;
+  transition: width 0.5s;
+ }
+ .elem--p img:hover{
+  transform: translate(2,2);
+ }
+ .elem--p .des--p{
+  max-width: 200px;
+  font-size: 12px;
+ }
+
+ .elem--p .price--p{
+  max-width: 200px;
+  font-size: 12px;
+  font-weight: bold;
+ }
+ .elem--p .old--price-p{
+  max-width: 200px;
+  font-size: 12px;
+  font-style: italic;
+  text-decoration: line-through;
+  color: red;
+ }
+
+ .elem--p button{
+  background-color: #050505;
+  color: white;
+  font-size: 12px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
  }
