@@ -189,7 +189,27 @@ body {font-family: Arial, Helvetica, sans-serif;}
     
   }
   
-  
+  .header--input-p{
+    position: relative;
+    width: 50%;
+    max-width: 700px;
+  }
+  .header--input-p input[type=text]{
+    width:400px;
+    padding: 8px;
+    padding-left: 25px;
+  }
+  .header--input-p .fa-magnifying-glass{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+
+  .header--input-p input[type=button]{
+    padding: 8px;
+    background-color: rgb(247, 135, 7);
+    border: none;
+  }
 
  .body--p h1{
     text-align: center;
@@ -226,7 +246,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   max-width: 30%;
   max-height: 300px ;
   border-radius: 5px;
-  box-shadow: 3px 5px 2px rgba(179, 177, 177, 0.3);
+  box-shadow: 3px 5px 4px 3px rgba(179, 177, 177, 0.3);
  }
 
  .elem--p img{
