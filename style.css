@@ -53,7 +53,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   max-width: 200px;
   background-color: white;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
-  z-index: 1;
+  z-index: 100;
 }
 .cat-elem  a{
   display: block;
@@ -265,10 +265,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
  .elem--p img{
   width: 200px;
   max-height: 220px;
-  transition: width 0.5s;
+  transition: transform 0.5s ease-in-out;
  }
  .elem--p img:hover{
-  transform: translate(2,2);
+  transform: scale(1.5);
  }
  .elem--p .des--p{
   max-width: 200px;
@@ -285,11 +285,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
   font-size: 12px;
   font-style: italic;
   text-decoration: line-through;
-  color: red;
+  color: rgb(170, 168, 168);
  }
 
  .elem--p button{
-  background-color: #050505;
+  background-color:  rgb(247, 135, 7);
   color: white;
   font-size: 12px;
   width: 100%;
