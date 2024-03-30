@@ -1,3 +1,7 @@
+:root{
+  --navblue: rgb(8, 8, 80);
+  --gray: rgb(112, 111, 111);
+}
 * {
   margin: 0;
   padding: 0;
@@ -190,14 +194,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
     padding-bottom: 30px;
     
   }
-  .whatsApp--p{
-    position:fixed;
-    right: 20px;
-    bottom: 20px;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-  }
   
   .header--input-p{
     position: relative;
@@ -217,13 +213,17 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
   .header--input-p input[type=button]{
     padding: 8px;
-    background-color: rgb(247, 135, 7);
+    background-color: var(--navblue);
     color: white;
     border: none;
+  }
+  .header--input-p input[type=button]:hover{
+    opacity: 0.4;
   }
 
  .body--p h1{
     text-align: center;
+    margin: 20px 0;
  }
 
  .flex---content--p{
@@ -269,7 +269,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
  }
 
  .elem--p:hover{
-  outline: 2px solid orange;
+  outline: 2px solid var(--navblue);
  }
 
  .elem--p img{
@@ -299,7 +299,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
  }
 
  .elem--p button{
-  background-color:  rgb(247, 135, 7);
+  background-color:  var(--navblue);
   color: white;
   font-size: 12px;
   width: 100%;
@@ -307,4 +307,21 @@ body {font-family: Arial, Helvetica, sans-serif;}
   padding: 4px;
   border: none;
   cursor: pointer;
+ }
+
+ .elem--p button:hover{
+  opacity: 0.8;
+ }
+
+ .footer--p{
+  background-color: #717171;
+  color: white;
+  box-sizing: border-box;
+  overflow: hidden;
+ }
+ .footer--flex--elem--p{
+  width: 95%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
  }
