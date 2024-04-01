@@ -1,0 +1,16 @@
+:root{
+    --navblue: rgb(8, 8, 80);
+    --gray: rgb(112, 111, 111);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+  .hero-bg-body{
+    position: absolute;
+    width: 100%;
+    background-color: white;
+  }

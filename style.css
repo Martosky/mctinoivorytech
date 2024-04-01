@@ -13,7 +13,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .header{
     width: 100%;
     background-color: white;
-    box-shadow: 2px 4px 1px rgba(104, 102, 102, 0.3);
+    box-shadow: 2px 4px 1px rgba(201, 195, 195, 0.3);
     position: sticky;
     top: 0;
     height: auto;
@@ -21,6 +21,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
 /* Nav elements in header */
 .nav{
@@ -53,11 +54,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
   display: none;
   position: absolute;
   top: 57px;
-  left: 873px ;
   max-width: 200px;
   background-color: white;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
-  z-index: 100;
+  z-index: 10;
 }
 .cat-elem  a{
   display: block;
@@ -77,13 +77,15 @@ body {font-family: Arial, Helvetica, sans-serif;}
     display: block;
 }
 
-.slide-body{
-    margin: 0;
-    padding: 10px;
-    background-image: url(photos/slidebg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
+.hero-body{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-image: url(photos/topbg3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+
    
 }
 
@@ -220,6 +222,15 @@ body {font-family: Arial, Helvetica, sans-serif;}
   .header--input-p input[type=button]:hover{
     opacity: 0.4;
   }
+  .slide-body{
+    margin: 0;
+    padding: 10px;
+    background-image: url(photos/slidebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+   
+}
 
  .body--p h1{
     text-align: center;
@@ -382,7 +393,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 .main--nexprev--p .previous {
-  background-color: #f1f1f1;
+  background-color: #ccc8c8;
   color: black;
 }
 
@@ -396,9 +407,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 .main--nexprev--p .numbs--p{
-  padding: 8px 16px;
+  padding: 8px 10px;
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 50%;
 }
 
 .main--nexprev--p .current{
