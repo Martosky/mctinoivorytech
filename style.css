@@ -134,20 +134,33 @@ body {font-family: Arial, Helvetica, sans-serif;}
   border-radius: 15px;
 }
 /* first--section--body */
-.first--section--body{
-   position: relative;
+.first--section--body h2{
+   text-align: center;
+   margin: 20px 0;
+}
+
+.f-sec-wraper{
+  position: relative;
    width: 100%;
    padding: 20px;
    display: flex;
    flex-direction: row;
    justify-content: center;
    flex-wrap: wrap;
-   gap: 20px;
-   
+   gap: 40px;
+}
+
+.f-sec-img{
+  width: 250px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgb(10, 240, 240, 0.5);
+  overflow: hidden;
+
 }
 .f-sec-img img{
-  height: 250px;
-  width: 300px;
+  height: 100%;
+  width: 100%;
 }
 
 /* Slideshow container */
