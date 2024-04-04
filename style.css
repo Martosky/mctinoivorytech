@@ -198,6 +198,14 @@ body {font-family: Arial, Helvetica, sans-serif;}
   max-height: 500px;
 }
 
+.third--section--body{
+  width: 100%;
+  margin: 0;
+  height: 400px;
+  padding: 0;
+  background-color: #a79e9e;
+}
+
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
