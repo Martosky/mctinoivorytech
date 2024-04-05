@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   
+  
 }
 body {font-family: Arial, Helvetica, sans-serif;}
 
@@ -29,10 +30,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
     top: 0;
     height: auto;
     padding: 0 10px;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1;
+  
 }
 /* Nav elements in header */
 .nav{
@@ -203,13 +205,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
   margin: 0;
   height: 400px;
   padding: 0;
-  background-color: #a79e9e;
+  background-color: rgb(8, 7, 54);
 }
 
 .third-section--content-body{
   width: 70%;
   margin: 0 auto;
-  background-color: rgb(5, 4, 80);
   color: white;
   border-radius: 10px;
   display: flex;
@@ -218,8 +219,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
   gap: 20px;
 }
 
-.third-section--content-body .third--content h1{
+.third--content{
+  width: 50%;
+}
+
+ .third--content h1{
   text-align: center;
+  
 }
 
 /* Slideshow container */
