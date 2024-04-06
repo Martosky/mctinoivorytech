@@ -230,7 +230,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
   text-align: center;
   
 }
-.fourth-section{}
+.fourth-section{
+     width: 100vw;
+     height: 400px;
+}
 
 /* Slideshow container */
 .slideshow-container {
