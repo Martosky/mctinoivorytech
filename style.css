@@ -94,7 +94,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   position: relative;
   margin: 0;
   padding: 0;
-  background-image: url(photos/fixedbg1.jpg);
+  background-image: url(photos/trybg3.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -368,7 +368,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   .slide-body{
     margin: 0;
     padding: 10px;
-    background-image: url(photos/changebg.jpg);
+    background-image: url(photos/trybg1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
