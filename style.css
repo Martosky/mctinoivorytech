@@ -190,7 +190,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   position: relative;
   margin: 0;
   padding: 0;
-  background-image: url(photos/instaledcam.jpg);
+  background-image: url(photos/fixednebg.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -385,7 +385,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   .slide-body{
     margin: 0;
     padding: 10px;
-    background-image: url(photos/trybg1.jpeg);
+    background-image: url(photos/newbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
