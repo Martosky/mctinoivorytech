@@ -232,7 +232,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 .fourth-section{
      width: 100vw;
-     height: 400px;
+     
 }
 .fourth-section h3{
   text-align: center;
@@ -248,7 +248,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 .section-four-content{
     width: 350px;
-    height: 400px;
     margin: 20px;
 }
 
