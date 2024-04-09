@@ -256,6 +256,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
   height: 250px;
 }
 
+.fift--section{
+  width: 100vw;
+  height: 400px;
+  background-color: #ccc8c8;
+}
+
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
