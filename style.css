@@ -261,6 +261,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
   height: 400px;
   background-color: #ccc8c8;
   padding: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
 /* Slideshow container */
