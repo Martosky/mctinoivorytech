@@ -539,6 +539,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
  .footer--txt-info{
     width: 30%;
  }
+ .footer--txt-info h4{margin: 15px 0;}
+ .footer--txt-info p{
+    margin: 15px 0;
+ }
 
  .footer--sub--p{
     position: relative;
