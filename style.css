@@ -535,6 +535,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
   display: flex;
   justify-content: space-between;
  }
+
+ .footer--txt-info{
+    width: 30%;
+ }
+
  .footer--sub--p{
     position: relative;
  }
