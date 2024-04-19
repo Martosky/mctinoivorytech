@@ -43,9 +43,11 @@
  <!-- THe body section of the page starts here-->
     <div class="main">
       <!--Hero section-->
-    <div class="hero-body">
-        <div class="hero-bg-body">
-          <div class="hero-span">
+    <!-- Full-width images with number and caption text -->
+    <div class="heSlides faded">
+      <img src="photos/trybg3.jpg" width="100%"  height="500px" alt="background image">
+       <div class="bg-collor">
+        <div class="hero-span">
             <div class="herobg-text">
               <h1>We digitalize your world!</h1> 
               <p>We are the leading high end technology company.</p> 
@@ -60,8 +62,18 @@
                 <img src="photos/fingerprint03.jpg" alt="" height="100%" width="100%"/>
              </div>
             </div>
-        </div>
-        </div>
+       </div>
+    </div>
+  
+    <div class="heSlides faded">
+      <img src="photos/fixedbg1.jpg" width="100%" height="500px" alt="background image">
+      <div class="bg-collor"></div>
+    </div>
+  
+    <div class="heSlides faded">
+      <img src="photos/topbg3.jpeg" width="100%" height="500px" alt="background image">
+      <div class="bg-collor"></div>
+    </div>
         <!--next section after hero-->
         <div class="first--section--body">
           <h2>What we do</h2>
@@ -217,8 +229,28 @@
           </div>
        </div>
        <hr />
-       <p>&copy;</p>     
+       <div class="copy--right"><p>Copyright &copy;<span id="year"></span>McTino Ivory Tech, LTD. All rights reserved.</p></div>
+           
     </div>
-    <script src="script.js"></script>
+    <script>
+      let slideIndex = 0;
+      showSlides();
+
+       function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("heSlides");
+        for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+       }
+         slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        slides[slideIndex-1].style.display = "block";  
+        setTimeout(showSlides, 3000); 
+}
+      
+     let date = new Date();
+     let currentYear = document.getElementById("year").innerHTML = date.getFullYear()
+  </script>
+    
 </body>
 </html>
