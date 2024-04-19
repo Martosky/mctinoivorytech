@@ -557,6 +557,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
  .footer--sub--p input[type=text]{
     padding: 8px;
+    font-size: 16px;
     padding-left: 27px;
     border-radius: 10px;
     border: none;
@@ -574,9 +575,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
  .footer--sub--p input[type=button]{
     padding: 8px;
     border-radius: 10px;
+    font-size: 16px;
     border: none;
     outline: none;
-    background-color: var(--navblue);
+    background-color: rgb(99, 146, 233);
     color: white;
  }
 
