@@ -113,6 +113,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
   background-color: rgba(14, 13, 13, 0.5);
 }
 
+.bg-collor h1,p{
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+
 
 .hero-span{
   width: 70%;
