@@ -35,3 +35,11 @@ function showSlides() {
             document.body.srcoolTop = 0;
             document.documentElement.scrollTop = 0;
         }
+
+
+        const photoArray = [
+          {
+            id: 1,
+            photoLink: ""
+          }
+        ]

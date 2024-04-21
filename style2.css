@@ -1,3 +1,23 @@
+.hero-bg-body{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(39, 39, 100, 0.5);
+}
+.hero-body{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-image: url(photos/trybg3.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  width: 100vw;
+  height: 450px;
+  max-height: 500px;
+}
+
 :root{
     --navblue: rgb(8, 8, 80);
     --gray: rgb(112, 111, 111);
