@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access point</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        body{background-color: gainsboro;}
+        header{
+            margin: 0;
+            width: 100vw;
+            padding: 20px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .main-body{
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            justify-items: center;
+
+        }
+        .left--section{
+            width: 50%;
+            padding-top: 20px;
+        }
+        .left--section .f-img{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .logo a{
+            text-decoration: none;
+        }
+        .right--section{
+            width: 50%;
+            padding-top: 20px;
+        }
+        .right--section p{
+            padding: 10px 0 10px 0;
+        }
+        span{
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        .sub--photos{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap ;
+            gap: 22px;
+        }
+
+        .sub--photos img:hover{
+            transform: scale(1.5);
+            transition: transform 0.5s ease-in-out;
+            border: 1px solid black;
+            z-index: 99;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="photos/mctinologo.jpeg" alt="logo" style="height: 40px;" title="Go home" />
+                <img src="photos/logo-name.jpeg" alt="logoName" height="40px" title="Go home"></a>
+           </div>
+        <a href="index.html">Home</a>
+        <a href="products.html">Product</a>
+        <div>
+            <h4><i class="fa-solid fa-headset"></i> Support</h4>
+        </div>
+    </header>
+    <div class="main-body">
+        <div class="left--section">
+            <img src="photos/fingertech.png" alt="finger print" class="f-img" height="250px">
+            <div class="sub--photos">
+                <img src="photos/F391time.jpg" alt="time machine" height="150px" width="170px" />
+                <img src="photos/voltlock.jpeg" alt="" height="150px" width="170px" />
+                <img src="photos/topbg2.jpeg" alt="" height="150px" width="170px" />
+            </div>
+        </div>
+        <div class="right--section">
+            <h3>Experience unparalleled connectivity and network performance with McTino
+                 Ivory Tech Limited's advanced access point solutions!</h3>
+            <p>🔹Secure Access Control by Implementing robust security measures,
+                 which includ WPA3 encryption, guest network controls,
+                 and intrusion detection, safeguarding your network from unauthorized access.</p>
+            <p>🔹Centralized Management and monitor your access points centrally through
+                 intuitive dashboards and cloud-based platforms,
+                 simplifying network administration and troubleshooting.</P>
+            <p>🔹Time Attendance Tracking Streamline workforce management with fingerprint-based time and attendance systems,
+                 eliminating buddy punching and improving accuracy in attendance records.</p> 
+            <p>🔹Customized fingerprint solutions for various industries and applications, including banking, healthcare, government,
+                 and corporate environments, meeting specific security and compliance requirements.</p>   
+            <span>Experience unmatched security and convenience with 
+                McTino Ivory Tech Limited's fingerprint solutions.
+                 Embrace the future of biometric
+                 technology for a safer and more secure world! 🔒</span> 
+        </div>
+    </div>
+</body>
+</html>
