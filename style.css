@@ -115,8 +115,16 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 .bg-collor h1{
   text-align: center;
-  color: white;
+  color: rgb(42, 204, 204);
+  font-family:  Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
   padding-top: 50px;
+}
+.h1big{font-size: 50px;}
+.bg-collor p{
+  text-align: center;
+  color: white;
+  font-size: 20px;
 }
 
 
@@ -132,6 +140,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 .herobg-text{
   width: 50%;
+  margin: 0 auto;
   overflow: hidden;
   background-color: rgb(39, 37, 37, 0.5);
   border-radius: 10px;
@@ -140,6 +149,14 @@ body {font-family: Arial, Helvetica, sans-serif;}
   color: rgb(42, 204, 204);
   text-align: center;
   padding: 10px 0;
+}
+.midd-elem img{
+  display: block;
+  float: right;
+  margin: 100px 70px 0 0;
+  width: 450px;
+  height: 250px;
+  text-align: right;
 }
 
 .herobg-text p{
