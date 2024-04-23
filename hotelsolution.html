@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel solution</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        body{background-color: gainsboro;}
+        header{
+            margin: 0;
+            width: 100vw;
+            padding: 20px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }header a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .main-body{
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            justify-items: center;
+
+        }
+        .left--section{
+            padding-top: 20px; 
+            width: 50%;
+        }
+        .left--section .f-img{
+            width: 90%;
+            height: 250px;
+            margin: 0 auto;
+        }
+       
+        .logo a{
+            text-decoration: none;
+        }
+        .right--section{
+            padding-top: 20px;
+            width: 50%;
+        }
+        .right--section p{
+            padding: 10px 0 15px 0;
+        }
+        span{
+            font-style: italic;
+            font-weight: bold;
+        }
+        .sub--photos{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap ;
+            gap: 22px;
+        }
+        .sub--photos img:hover{
+            transform: scale(1.5);
+            transition: transform 0.5s ease-in-out;
+            border: 1px solid black;
+            z-index: 99;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="photos/mctinologo.jpeg" alt="logo" style="height: 40px;" title="Go home" />
+                <img src="photos/logo-name.jpeg" alt="logoName" height="40px" title="Go home"></a>
+           </div>
+        <a href="index.html">Home</a>
+        <a href="products.html">Product</a>
+        <div>
+            <h4><i class="fa-solid fa-headset"></i> Support</h4>
+        </div>
+    </header>
+    <div class="main-body">
+        <div class="left--section">
+            <img src="photos/hotelsolute4.jpg" alt="finger print" class="f-img">
+            <div class="sub--photos">
+                <img src="photos/hotelsolute1.jpeg" alt="hotel picture" height="150px" width="170px" />
+                <img src="photos/hotelsolute3.jpg" alt="hotel picture" height="150px" width="170px" />
+                <img src="photos/hotelsolute.webp" alt="hotel picture" height="150px" width="170px" />
+            </div>
+        </div>
+        <div class="right--section">
+            <h3>Experience the pinnacle of hospitality innovation with 
+                McTino Ivory Tech Limited's comprehensive hotel solutions!</h3>
+            <p>🔹Smart Room Management Transform guest rooms into smart
+                 spaces with automated lighting, temperature control,
+                 and entertainment systems, providing personalized comfort and convenience.</p>
+            <p>🔹Contactless Check-in which Streamline guests arrivals with touchless check-in solutions,
+                 reducing wait times and enhancing safety and hygiene protocols.</P>
+            <p>🔹Optimize housekeeping operations with digital task assignments, real-time updates, 
+                and inventory tracking, ensuring rooms are promptly serviced to meet guest expectations.</p> 
+            <p>🔹Enhanced and advanced security measures such as access control systems, surveillance cameras, 
+                and cybersecurity protocols, ensuring guest safety and data protection.</p> 
+            <p></p>  
+            <span>Elevate your hotel's reputation and guest satisfaction with McTino Ivory Tech Limited's innovative solutions.
+                 Redefine luxury, efficiency, and hospitality excellence!</span> 
+        </div>
+    </div>
+</body>
+</html>
