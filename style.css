@@ -486,7 +486,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
  .flex---content--p{
     width: 90%;
-    height: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -541,7 +540,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
  }
 
  .elem--p img{
-  width: 200px;
+  width: 100%;
   max-height: 220px;
   transition: transform 0.5s ease-in-out;
  }
