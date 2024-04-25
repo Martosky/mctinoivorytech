@@ -7,7 +7,6 @@
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  
 }
 body {font-family: Arial, Helvetica, sans-serif;}
 
@@ -23,6 +22,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Page header */
 .header{
+    all: unset ;
     width: 100vw;
     background-color: white;
     box-shadow: 2px 4px 1px rgba(201, 195, 195, 0.3);
@@ -96,6 +96,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     display: block;
 }
 /* hero section*/
+
 .heSlides{
   position: relative;
   margin: 0;
@@ -307,11 +308,17 @@ body {font-family: Arial, Helvetica, sans-serif;}
   background-image: url(photos/background-for-slides.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
+ /* display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-between;*/
   
+}
+.fift--section h1{
+  text-align: center;
+  font-size: 40px;
+  margin: 20px 0 30px 0;
+  color: black;
 }
 
 .fift-container{
@@ -321,11 +328,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
+  flex-wrap: wrap;
 }
 .fifstelem{
   width: 150px;
-  border-radius: 50%;
+  border-radius: 20px;
 }
 .fifstelem img{
   width: 100%;
