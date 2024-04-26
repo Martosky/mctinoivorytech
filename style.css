@@ -54,47 +54,36 @@ body {font-family: Arial, Helvetica, sans-serif;}
   padding: 20px;
 }
 .nav span:hover, .catlog-items:hover{background-color: rgb(201, 198, 198);}
-/* Drop down caterlog */
-.catlog-items{
-  overflow: hidden;
- 
+/* Drop down menu */
+.catlog-items.catlog-{
+  position: relative;
+  display: inline-block;
 }
 
-.catlog-items button{
-  border: none;
-  outline: none;
-  background: transparent;
-  font-size: 16px;
-  margin: 0;
-  
-}
-/* Hide the elements */
 .cat-elem{
   display: none;
   position: absolute;
-  top: 57px;
   max-width: 200px;
   background-color: white;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
-  z-index: 10;
+  z-index: 99;
 }
-.cat-elem  a{
+
+.cat-elem a{
   display: block;
   text-decoration: none;
   color: black;
   font-size: 16px;
   text-align: left;
   padding: 12px 16px;
-  
 }
-/* Over effect for the a elements */
-.cat-elem > a:hover{
-   background-color: #dbd7d7;
+.cat-elem a:hover{
+  background-color: #dbd7d7;
 }
-/* Display dropdown on hover */
 .catlog-items:hover .cat-elem{
-    display: block;
+  display: block;
 }
+
 /* hero section*/
 
 .heSlides{
@@ -467,7 +456,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
   }
   .header--input-p input[type=button]:hover{
     opacity: 0.4;
-  }
+    
+  }/* slide for product page*/
   .slide-body{
     margin: 0;
     padding: 10px;
@@ -527,10 +517,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
  }
 
  .elem--p{
+  width: 200px;
   max-width: 30%;
   max-height: 300px ;
   border-radius: 5px;
-  
   padding: 10px;
   box-shadow: 0px 0px 4px 3px rgba(179, 177, 177, 0.3);
  }
@@ -705,4 +695,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 #myBtn:hover {
   background-color: #555; 
+}
+@media all and (max-width: 700px) {
+  .header--input-p {
+    display: none;
+  }
 }
