@@ -23,6 +23,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 /* Page header */
 .header{
     all: unset ;
+    box-sizing: border-box;
     width: 100vw;
     background-color: white;
     box-shadow: 2px 4px 1px rgba(201, 195, 195, 0.3);
@@ -55,14 +56,23 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 .nav span:hover, .catlog-items:hover{background-color: rgb(201, 198, 198);}
 /* Drop down menu */
-.catlog-items.catlog-{
+.catlog-items.catlog{
   position: relative;
   display: inline-block;
+}
+
+.dropbtn{
+  display: inline-block;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: transparent;
 }
 
 .cat-elem{
   display: none;
   position: absolute;
+  margin-top: 20px;
   max-width: 200px;
   background-color: white;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
