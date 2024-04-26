@@ -43,3 +43,19 @@ function showSlides() {
             photoLink: ""
           }
         ]
+
+
+/* display photos elem */
+
+const photoArr = [
+  {
+    id: 1,
+    className: "phone--image",
+    directory: "agent.png",
+    desription: "gps tracking system"
+  },
+   {
+    id: 2,
+    className: ""
+   }
+]
