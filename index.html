@@ -11,13 +11,17 @@
 <body>
   <!-- Full-width header section-->
   <div class="sm-sc-header">
-    <div class="iconic"></div>
-    <div class="iconic"></div>
-    <div class="iconic"></div>
-    <div class="sm-header-elem">
-      <a>Services</a>
-      <a>Products</a>
-      <a>Solutions</a>
+    <div id="openmodal" onclick="myFunc(this)">
+       <div class="iconic ico1"></div>
+       <div class="iconic ico2"></div>
+       <div class="iconic ico3"></div>
+    </div>
+    
+    <div class="sm-header-elem" id="sm-h-elem">
+      <a href="#third--section">Services</a>
+      <a href="products.html">Products</a>
+      <a href="#fourth-section">Solutions</a>
+      <a href="#client">Clients</a>
     </div>
   </div>
   <div class="header">
@@ -152,7 +156,7 @@
               </div>
            </div>
       </div>
-      <div class="fourth-section">
+      <div class="fourth-section" id="fourth-section">
          <h3>Solutions</h3>
          <div class="fourt--sec-flex">
          <div class="section-four-content">
@@ -264,6 +268,23 @@
       
      let date = new Date();
      let currentYear = document.getElementById("year").innerHTML = date.getFullYear()
+
+     const contentElem = document.getElementById("sm-h-elem");
+           const modal = document.getElementById("openmodal");
+
+           modal.addEventListener("click", showHide)
+
+           function showHide(e){
+              if(contentElem.style.display == "block"){
+                contentElem.style.display = "none"
+              }else{
+                contentElem.style.display = "block"
+              }
+           }
+
+           function myFunc(e){
+            e.classList.toggle("change")
+           }
   </script>
     
 </body>

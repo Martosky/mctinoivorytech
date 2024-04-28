@@ -101,6 +101,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   margin: 0;
   padding: 0;
   display: none;
+  z-index: 1;
 }
 .faded{
   animation-name: fade;
@@ -705,6 +706,47 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 #myBtn:hover {
   background-color: #555; 
+}
+/* style for small screen menu */
+.sm-sc-header{
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+}
+.iconic{
+  width: 25px;
+  margin: 5px 0;
+  height: 6px;
+  background-color: black;
+  transition: 0.5s;
+}
+.sm-header-elem{
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 100px ;
+  font-size: 16px;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 99;
+}
+.sm-header-elem a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.sm-header-elem a:hover{
+  background-color: rgb(252, 251, 251);
+  color: rgb(255, 2, 2);
+}
+.change .ico1{transform: translate(0, 11px) rotate(-45deg); background-color: red;}
+.change .ico2{opacity: 0;}
+.change .ico3{transform: translate(0, -11px) rotate(45deg); background-color: red;} 
+@media all and (min-width: 700px){
+  .sm-sc-header{
+      display: none;
+  }
 }
 @media all and (max-width: 700px) {
   .header--input-p {
