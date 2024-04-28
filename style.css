@@ -710,4 +710,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   .header--input-p {
     display: none;
   }
+  .header{
+    display: none;
+  }
 }
