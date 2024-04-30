@@ -37,25 +37,23 @@ function showSlides() {
         }
 
 
-        const photoArray = [
-          {
-            id: 1,
-            photoLink: ""
-          }
-        ]
+        const contentElem = document.getElementById("sm-h-elem");
+           const modal = document.getElementById("openmodal");
+
+           modal.addEventListener("click", showHide)
+
+           function showHide(e){
+              if(contentElem.style.display == "block"){
+                contentElem.style.display = "none"
+              }else{
+                contentElem.style.display = "block"
+              }
+           }
+
+           function myFunc(e){
+            e.classList.toggle("change")
+           }
 
 
 /* display photos elem */
 
-const photoArr = [
-  {
-    id: 1,
-    className: "phone--image",
-    directory: "agent.png",
-    desription: "gps tracking system"
-  },
-   {
-    id: 2,
-    className: ""
-   }
-]
