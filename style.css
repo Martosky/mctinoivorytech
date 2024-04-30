@@ -8,7 +8,9 @@
   box-sizing: border-box;
   overflow-x: hidden;
 }
-body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+   Geneva, Verdana, sans-serif;}
+  
 
 /* style for the scroolbar */
 ::-webkit-scrollbar{
@@ -119,16 +121,21 @@ body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida
 .bg-collor h1{
   text-align: center;
   color: rgb(42, 204, 204);
-  font-family:  Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Sevillana", cursive;
+  font-weight: bold;
   font-style: oblique;
   padding-top: 50px;
 }
-.h1big{font-size: 50px;}
+.h1big{
+  font-size: 50px;
+}
+
 .bg-collor p{
   text-align: center;
   color: white;
   font-size: 18px;
   padding-bottom: 10px;
+  font-family: "Lugrasimo", cursive;
 }
 
 
@@ -166,8 +173,8 @@ body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida
 .herobg-text p{
   padding: 10px 0 0 20px;
   color: white;
-  
   text-align: left;
+  font-family: "Lugrasimo", cursive;;
 }
 
 /* first--section--body */
@@ -455,19 +462,7 @@ body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida
   max-width: 200px;
   font-size: 12px;
  }
-
- .elem--p .price--p{
-  max-width: 200px;
-  font-size: 12px;
-  font-weight: bold;
- }
- .elem--p .old--price-p{
-  max-width: 200px;
-  font-size: 12px;
-  font-style: italic;
-  text-decoration: line-through;
-  color: rgb(170, 168, 168);
- }
+ 
 
  .elem--p button{
   background-color:  var(--navblue);
@@ -506,13 +501,19 @@ body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida
  .footer--txt-info{
     width: 30%;
  }
- .footer--txt-info h4{margin: 15px 0;}
+ .footer--txt-info h1{ font-family: "Sevillana", cursive;}
+ .footer--txt-info h4{
+  margin: 15px 0;
+  font-family: "Lugrasimo", cursive;
+ }
  .footer--txt-info p{
     margin: 15px 0;
+    font-family: "Lugrasimo", cursive;
  }
 
  .footer--sub--p{
     position: relative;
+    font-family: "Lugrasimo", cursive;
  }
 
  .footer--sub--p input[type=text]{
@@ -550,6 +551,7 @@ body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida
      width: 100vw;
      background-color: black;
      color: white;
+     font-family: "Lugrasimo", cursive;
  }
  .copy--right p{
      padding: 10px;
