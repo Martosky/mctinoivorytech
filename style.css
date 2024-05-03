@@ -130,6 +130,13 @@ section a, a:hover {
 }
 .h1big{
   font-size: 50px;
+  font-family: "Kanit", sans-serif;
+}
+.bg-collor img{
+  width: 25%;
+  position: absolute;
+  right: 40px;
+  bottom: 60px;
 }
 
 .bg-collor p{
@@ -160,17 +167,17 @@ section a, a:hover {
 }
 .herobg-text h1{
   color: rgb(42, 204, 204);
+  font-family: "Kanit", sans-serif;
   text-align: center;
   padding: 10px 0;
   font-size: 30px;
 }
 .midd-elem img{
-  display: block;
-  float: right;
-  margin: 100px 70px 0 0;
-  width: 450px;
-  height: 250px;
-  text-align: right;
+  width: 50%;
+  position: absolute;
+  right: 40px;
+  bottom: 60px;
+  
 }
 
 .herobg-text p{
@@ -260,7 +267,7 @@ section a, a:hover {
 
  .third--content h1{
   text-align: center;
-  font-family: "Archivo Black", sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 .third--content p{
   font-family: "Lugrasimo", cursive;
@@ -404,10 +411,10 @@ section a, a:hover {
  }
 
  .flex---content--p{
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
  }
@@ -417,7 +424,7 @@ section a, a:hover {
     background-color: white;
     padding: 10px;
     border-radius: 4px;
-    max-height: 300px;
+    height: auto;
     box-sizing: border-box;
  }
 
@@ -428,15 +435,9 @@ section a, a:hover {
 
 
  /* Filter elements*/
+ 
  /* The "show" class is added to the filtered elements */
  .filterDiv {
-  float: left;
-  background-color: #2196F3;
-  color: #ffffff;
-  width: 100px;
-  line-height: 100px;
-  text-align: center;
-  margin: 2px;
   display: none; /* Hidden by default */
 }
 
@@ -446,11 +447,19 @@ section a, a:hover {
 }
 
 /* Style the buttons */
+.big{
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .btn {
+  display: block;
   border: none;
   outline: none;
-  padding: 12px 16px;
-  background-color: #f1f1f1;
+  padding: 5px 2px;
+  background-color: white;
+  text-align: left;
+  text-decoration: underline;
   cursor: pointer;
 }
 
@@ -463,6 +472,7 @@ section a, a:hover {
 .btn.active {
   background-color: #666;
   color: white;
+  text-decoration: none;
 }
 /* the main products page*/
  .main--p{
@@ -480,6 +490,8 @@ section a, a:hover {
  .elem--p{
   width: 200px;
   max-width: 30%;
+  height: 270px;
+  overflow: hidden;
   max-height: 300px ;
   border-radius: 5px;
   padding: 10px;
@@ -492,6 +504,7 @@ section a, a:hover {
 
  .elem--p img{
   width: 100%;
+  height: 200px;
   max-height: 220px;
   transition: transform 0.5s ease-in-out;
  }
@@ -575,7 +588,7 @@ section a, a:hover {
  .footer--txt-info{
     width: 30%;
  }
- .footer--txt-info h1{ font-family: "Archivo Black", sans-serif;}
+ .footer--txt-info h1{  font-family: "Kanit", sans-serif;}
  .footer--txt-info h4{
   margin: 15px 0;
   font-family: "Lugrasimo", cursive;
