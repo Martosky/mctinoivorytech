@@ -44,6 +44,14 @@
          <div class="flex---content--p">
         
         <div class="aside--left--p">
+            <div id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+                <button class="btn" onclick="filterSelection('animals')"> Animals</button>
+                <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
+                <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+              </div>
+            <!-- 
             <select id="myBtnContainer">
                 <option class="btn active" onclick="filterSelection('all')">Select item category</option>
                 <option class="btn" onclick="filterSelection('surveillance')">CCTV Surveillance system</option>
@@ -58,6 +66,7 @@
                 <option class="btn" onclick="filterSelection('smar-door-lock')">Smart lock</option>
                 <option class="btn" onclick="filterSelection('communicator')">communicator</option>
             </select>
+            -->
             <h4>Brands</h4>
             <ul>
                 <li>Hikvission</li>
@@ -72,7 +81,20 @@
         </div>
         <!--main section that holds available products-->
         <div class="main--p" id="paginated-list">
-            <!-- section contents -->
+            <div class="filterDiv cars">BMW</div>
+        <div class="filterDiv colors fruits">Orange</div>
+        <div class="filterDiv cars">Volvo</div>
+        <div class="filterDiv colors">Red</div>
+        <div class="filterDiv cars">Ford</div>
+        <div class="filterDiv colors">Blue</div>
+        <div class="filterDiv animals">Cat</div>
+        <div class="filterDiv animals">Dog</div>
+        <div class="filterDiv fruits">Melon</div>
+        <div class="filterDiv fruits animals">Kiwi</div>
+        <div class="filterDiv fruits">Banana</div>
+        <div class="filterDiv fruits">Lemon</div>
+        <div class="filterDiv animals">Cow</div>
+            <!-- section contents 
             <div class="elem--p filterDiv smar-door-lock">
                 <img src="./photos/smartlock2.jpg"/>
                 <p class="des--p">Fingerprint Smart Door Lock SMT07 TTLock</p>
@@ -172,7 +194,7 @@
                 <img src="./photos/gps1.jpg"/>
                 <p class="des--p">Description:</p>
                 <button>Order item <i class="fa-solid fa-angles-right"></i></button>
-            </div>
+            </div>-->
         </div>
 <!--Pagination for the products-->
        <nav class="pagination-container">
@@ -194,6 +216,8 @@
     <!--Footer section-->
     <div class="copy--right"><p>Copyright &copy;<span id="years"></span>McTino Ivory Tech, LTD. All rights reserved.</p></div>
     <script>
+
+        /* pagination script code*/
         const paginationNumbers = document.getElementById("pagination-numbers");
 const paginatedList = document.getElementById("paginated-list");
 const listItems = paginatedList.querySelectorAll("div");
@@ -293,6 +317,7 @@ window.addEventListener("load", () => {
     }
   });
 });
+    
 
       </script>
 
