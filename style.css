@@ -426,11 +426,21 @@ section a, a:hover {
   margin: 10px 0 20px ;
  }
 
-  select option{
-    width: 100px ;
- }
+
  /* Filter elements*/
  /* The "show" class is added to the filtered elements */
+ .filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
 .show {
   display: block;
 }
@@ -454,6 +464,7 @@ section a, a:hover {
   background-color: #666;
   color: white;
 }
+/* the main products page*/
  .main--p{
     width: 80%;
     background-color: white;
