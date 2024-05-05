@@ -706,6 +706,18 @@ section a, a:hover {
 .change .ico1{transform: translate(0, 11px) rotate(-45deg); background-color: red;}
 .change .ico2{opacity: 0;}
 .change .ico3{transform: translate(0, -11px) rotate(45deg); background-color: red;} 
+/*style for the filter when in small screen small*/
+.sma-sc-body{
+  display: inline-block;
+   margin: 10px;
+   padding: 6px;
+   border: 1px solid rgb(30, 30, 66);
+}
+.small-sc-filter{
+  display: none;
+
+}
+
 @media all and (min-width: 700px){
   .sm-sc-header{
       display: none;
