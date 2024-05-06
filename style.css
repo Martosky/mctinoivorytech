@@ -734,6 +734,9 @@ section a, a:hover {
   .sm-sc-header{
       display: none;
   }
+  .small-scr-sd-cn{
+    display: none;
+  }
 }
 @media all and (max-width: 700px) {
   
