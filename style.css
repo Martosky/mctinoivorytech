@@ -75,7 +75,7 @@ section a, a:hover {
   display: none;
   position: absolute;
   margin-top: 20px;
-  width: 200px;
+  max-width: 200px;
   background-color: white;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
   z-index: 99;
@@ -707,17 +707,29 @@ section a, a:hover {
 .change .ico2{opacity: 0;}
 .change .ico3{transform: translate(0, -11px) rotate(45deg); background-color: red;} 
 /*style for the filter when in small screen small*/
+.small-scr-sd-cn{
+  width: 140px;
+}
 .sma-sc-body{
-  display: inline-block;
+   display: inline-block;
    margin: 10px;
    padding: 6px;
    border: 1px solid rgb(30, 30, 66);
 }
 .small-sc-filter{
   display: none;
-
+  max-width: 200px;
+  margin-left: 10px;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  z-index: 99;
 }
-
+.small-scr-sd-cn:hover .small-sc-filter{
+  display: block;
+  z-index: 99;
+}
+/* media for small screens */
 @media all and (min-width: 700px){
   .sm-sc-header{
       display: none;
