@@ -31,6 +31,7 @@
         .main-body{
             width: 90%;
             margin: 0 auto;
+            margin-bottom: 20px;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -76,6 +77,13 @@
             border: 1px solid black;
             z-index: 99;
         }
+
+        .copy--right{
+            width: 100vw;
+            background-color: black;
+            color: white;
+            font-family: "Lugrasimo", cursive;
+       }
     </style>
 </head>
 <body>
@@ -96,7 +104,7 @@
             <div class="sub--photos">
                 <img src="photos/F391time.jpg" alt="time machine" height="150px" width="170px" />
                 <img src="photos/voltlock.jpeg" alt="" height="150px" width="170px" />
-                <img src="photos/topbg2.jpeg" alt="" height="150px" width="170px" />
+                <img src="photos/accesspint1.jpeg" alt="" height="150px" width="170px" />
             </div>
         </div>
         <div class="right--section">
@@ -118,5 +126,10 @@
                  technology for a safer and more secure world! 🔒</span> 
         </div>
     </div>
+    <div class="copy--right"><p>Copyright &copy; <span id="years"></span> McTino Ivory Tech, LTD. All rights reserved.</p></div>
+    <script>
+        let year = new Date().getFullYear();
+        document.getElementById("years").innerHTML = year;
+    </script>
 </body>
 </html>
