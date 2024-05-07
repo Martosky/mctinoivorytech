@@ -29,6 +29,7 @@
         .main-body{
             width: 90%;
             margin: 0 auto;
+            margin-bottom: 20px;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -73,7 +74,12 @@
             border: 1px solid black;
             z-index: 99;
         }
-
+        .copy--right{
+            width: 100vw;
+            background-color: black;
+            color: white;
+            font-family: "Lugrasimo", cursive;
+       }
     </style>
 </head>
 <body>
@@ -116,6 +122,10 @@
                  Embrace technology, productivity, and collaboration like never before!</span> 
         </div>
     </div>
-    
+    <div class="copy--right"><p>Copyright &copy; <span id="years"></span> McTino Ivory Tech, LTD. All rights reserved.</p></div>
+    <script>
+        let year = new Date().getFullYear();
+        document.getElementById("years").innerHTML = year;
+    </script>
 </body>
 </html>
