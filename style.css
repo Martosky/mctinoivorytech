@@ -744,4 +744,14 @@ section a, a:hover {
     display: none;
   }
   .aside--left--p {display: none;}
+
+  .main--p{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
 }
