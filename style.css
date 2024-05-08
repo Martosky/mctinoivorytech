@@ -730,10 +730,6 @@ section a, a:hover {
   z-index: 99;
 }
 
-.elfsight-app-7210ec1f-70f3-4359-a12d-c0207d14d368{
-  overflow: hidden;
-  width: 200px;
-}
 /* media for small screens */
 @media all and (min-width: 700px){
   .sm-sc-header{
