@@ -274,14 +274,14 @@ section a, a:hover {
 
  .third--content h1{
   text-align: center;
-  font-family: "Kanit", sans-serif;
+  color: aqua;
 }
 .third--content p{
-  font-family: "Lugrasimo", cursive;
+  line-height: 30px;
 }
 
 .third--content ul li{
-  font-family: "Lugrasimo", cursive;
+  line-height: 25px;
 }
 /*fourth section in body */
 .fourth-section{
