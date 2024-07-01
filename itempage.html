@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ItemPage</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            box-sizing: border-box;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 100vm;
+            height: 100vh;
+            background-color: #b9b5b5;
+        }
+        header{
+            margin: 0;
+            width: 100vw;
+            padding: 20px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        
+        .copy--right{
+            position: absolute;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="photos/mctinologo.jpeg" alt="logo" style="height: 40px;" title="Go home" />
+                <img src="photos/logo-name.jpeg" alt="logoName" height="40px" title="Go home"></a>
+           </div>
+        <a href="index.html">Home</a>
+        <a href="products.html">Product</a>
+        <div>
+            <h4><i class="fa-solid fa-headset"></i> Support</h4>
+        </div>
+    </header>
+
+    <section></section>
+
+    <section class="contact--info">
+        <div>
+            <p><i></i></p>
+            <p><i></i></p>
+            <p><i></i></p>
+        </div>
+    </section>
+
+    <div class="copy--right"><p>Copyright &copy; <span id="years"></span> 
+        McTino Ivory Tech, LTD. All rights reserved.</p></div>
+
+    <script>
+        let year = new Date().getFullYear();
+        document.getElementById("years").innerHTML = year;
+    </script>
+</body>
+</html>
