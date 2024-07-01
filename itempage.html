@@ -15,7 +15,7 @@
         body{
             width: 100vm;
             height: 100vh;
-            background-color: #b9b5b5;
+            background-color: #ddd4d4;
         }
         header{
             margin: 0;
@@ -32,7 +32,21 @@
             color: black;
             font-weight: bold;
         }
-        
+        .main{
+            width: 100vw;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .item--info{
+            width: 50%;
+        }
+
+        .contact--info{
+            width: 50%;
+        }
+
         .copy--right{
             position: absolute;
             bottom: 0;
@@ -51,16 +65,28 @@
             <h4><i class="fa-solid fa-headset"></i> Support</h4>
         </div>
     </header>
+    <main class="main">
 
-    <section></section>
-
-    <section class="contact--info">
+     <section class="item--info">
+        <img src="" alt="" id="item-img">
         <div>
-            <p><i></i></p>
-            <p><i></i></p>
-            <p><i></i></p>
+            <h3 id="item-text"></h3>
         </div>
-    </section>
+
+     </section>
+
+     <section class="contact--info">
+        <div class="contact-details">
+            <h2>18 Rumuadaolu Rumuola, Chicken Republic Building,
+                 Rumuola Road, Port-Harcourt, Rivers State.</h2>
+            <p><i class="fa-solid fa-phone"></i> +234 (0) 8033170802</p>
+            <p><i class="fa-solid fa-phone"></i> +234 (0) 8034474370</p>
+            <p><i class="fa-solid fa-phone"></i> +234 (0) 8124265051</p>
+            <p><i class="fa-solid fa-envelope"></i> info@mctinoivorytech.com</p>
+            <p><i class="fa-solid fa-envelope"></i> mctinoivorytech@gmail.com</p>
+        </div>
+     </section>
+    </main>
 
     <div class="copy--right"><p>Copyright &copy; <span id="years"></span> 
         McTino Ivory Tech, LTD. All rights reserved.</p></div>
